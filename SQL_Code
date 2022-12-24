@@ -1,0 +1,25 @@
+Creating Tables (3 Tables)
+
+CREATE TABLE Hospital(
+    IDHospital int,
+	  Ubicacion varchar(255),
+	  Nombre varchar(255),
+	  Servicios varchar(255)
+);
+
+CREATE TABLE Personal(
+    IDPersonal int,
+	  Nombre varchar(255),
+	  Area varchar(255),
+	  Departamento varchar(255)
+);
+
+CREATE TABLE Equipo(
+    IDEquipo int,
+	  Modelo varchar(255),
+	  Serie varchar(255),
+	  Tipo varchar(255)
+);
+
+Inserting new values in each table
+
